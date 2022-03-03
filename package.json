@@ -1,0 +1,25 @@
+{
+  "name": "yjp_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/js -w -d dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99JungInKim/YJP_Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/99JungInKim/YJP_Node/issues"
+  },
+  "homepage": "https://github.com/99JungInKim/YJP_Node#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
